@@ -1,13 +1,18 @@
 package se.lexicon;
 
-/**
- * Hello world!
- *
- */
+import se.lexicon.data.People;
+import se.lexicon.data.PersonSequencer;
+import se.lexicon.model.Person;
+
+
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Run session = new Run();
+        session.run();
+
     }
+
+
 }
